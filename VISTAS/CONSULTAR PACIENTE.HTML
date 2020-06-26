@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <link rel="stylesheet" href="../CSS/FORMULARIOS.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="../JS/FORMULARIO.js" type="text/javascript" charset="utf-8" async defer></script>
+    </head>
+    <body>    
+         <br><br>
+    
+         <form action="cont2"><br>
+	<fieldset class="bordeform">
+		<fieldset>
+		<legend>Informacion</legend>
+                <p ALIGN="justify">Consulte aqui los paciente por CC</p> 
+                <input id="docu" type="text" placeholder="Ingrese la cedula a Consultar">
+                <input type="button" value="Consultar" onclick="buscardoc()">
+                        <td><a id="button"><input type="button" value="Mostrar Todos" onclick="consultar()"></a></td> 
+	</fieldset><br>
+
+		<caption>Datos del Paciente</caption><br><br>
+<table id="estilotabla">
+		
+	<tr>
+	 <td>N. Documento</td>
+	 <td>Nombre Paciente</td>        
+	 <td>Apellido Paciente</td>         
+	 <td>Direccion</td>
+	 <td>Correo</td>         
+	 <td>Telefono</td>
+	 <td>EPS</td>         
+	 <td>Fecha de Ingreso</td>
+	 <td>Acciones</td>
+   </tr>
+  
+	
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		
+	</tr>	
+               
+
+<td>
+	</table>
+
+	</fieldset>
+</form>
+        
+    </body>
+</html>

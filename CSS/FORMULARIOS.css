@@ -1,0 +1,86 @@
+
+form {
+    margin: auto; 
+    width: 900px;
+    font-family: 'tahoma';
+}
+
+.bordeform {margin:auto;
+            padding: 10px;
+            border-radius: 15px;
+            border: solid 5px;
+            border-color: #4fabd0;
+            }
+            
+.bordeform-filtro {margin:auto;
+            padding: 10px;
+            border-radius: 15px;
+            border: solid 5px;
+            border-color: #4fabd0;
+             width: 150px;
+            }
+
+.bordeform-filtro2 {margin:auto;
+            padding: 10px;
+            border-radius: 15px;
+            border: solid 5px;
+            border-color: #4fabd0;
+
+             
+            }
+
+#form-dato-cli {width: 760px;}
+            
+            
+
+legend {font-family: 'tahoma'; border: 1px solid  #4fabd0; }
+
+form input  {
+
+    display: inline-block;   
+    width: 200px;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.20),0 1px 1px 0 rgba(0,0,0,0.10);
+  
+}
+form label {
+    text-align-last: left;
+    font-family: 'tahoma';
+    display: inline-block;
+    width: 150px;
+
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
+
+}
+
+
+
+input[type= submit] {
+  padding-bottom: 3px;
+  margin-right:  10px;
+  border-radius: 5px;
+  width: 95px;
+  -webkit-appearance: none;
+  float: right;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24),0 10px 40px 0 rgba(0,0,0,0.16);
+
+}
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+

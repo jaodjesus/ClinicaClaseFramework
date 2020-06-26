@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="./CSS/login.css">
+	<script src="JS/LOGIN.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>		<center>
+				<h1 id="titulo-login">INICIAR SESION</h1>
+				</center>
+			<center>
+				<div id="borde-login">
+					<fieldset id="borde-login2">
+						<form id="borde-formulari" action="JS/LOGIN.js">
+							<center>	
+								<img id="logo-login" src="imagenes/lo.png" alt="Logo no disponible" title="Identity Gps">
+							</center>
+							<div class="inputWhithIcon">
+								<input id="input" type="text" placeholder="Usuario">
+								<i class="fa fa-user lg fa fw" aria-hidden="true"><img src="imagenes/iconos de input/user.png" alt="Imagen no disponible"></i>
+							
+
+							
+								<input id="input-contra" type="password" placeholder="Contraseña" >
+								<i id="i-contra" aria-hidden="true"><img  id="icono-contra" src="imagenes/iconos de input/Unlock.png" alt="Imagen no disponible"></i>
+
+								<input id="boton-ingresar" type="button" onClick="ingresar()" value="Ingresar">
+								<input id="boton-ingresar" type="submit" value="Volver" ><br>
+								<a href="#">Registrar Usuario</a>
+								
+							</div>	
+							</form>
+					</fieldset>
+				</div>
+			</center>	
+</body>
+</html>

@@ -1,0 +1,188 @@
+@charset 'UTF-8';
+* {
+    margin: auto;
+    padding: 0;
+    font-family: tahoma;
+}
+/* body cuerpo de pagina */
+
+body {
+    background-color: #fffafa;
+}
+/* cabecera*/
+
+header {
+    margin: auto;
+    height: 60px
+}
+header {
+    background-color: #14213d;
+    background-size: 100%;
+    height: 50%;
+}
+header h1 {
+    text-align: left;
+    color: white;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+header {
+    text-align: center;
+    color: #fffafa;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+#portada {width: 60%; height:200px;}
+
+
+/*MENU*/
+
+.header {
+    margin: auto;
+    float: left;
+    width: 100%;
+    max-width: 80%;
+    font-family: 'tahoma';
+}
+.a2:hover {
+    font-size: 112%;
+    -webkit-animation: block-level;
+}
+ul, ol {
+    list-style: none;
+}
+.nav li a {
+    background-color: #4fabd0;
+    width: 79%;
+    color: #fffafa;
+    text-decoration: none;
+    padding: 13px 24px;
+    display: block;
+    box-shadow: rgb(150, 150, 150) 5px 5px 25px;
+}
+.nav li a:hover {
+    background-color: #434343;
+}
+.nav>li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 20px;
+}
+.nav li:hover ul {
+    display: block;
+}
+/*----------------- -----tamaño imagen botones de menu---------------------------*/
+
+.botones-nav {
+    width: 13%;
+    height: 13%;
+    margin: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#botones-nav {
+    width: 16%;
+    height: 18%;
+    margin: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#letra-menu {
+    margin-top: -10px;
+}
+
+/*--------------------- principal: section------------------------------------*/
+
+section {
+    width: 100%;
+    background-color: #fffafa;
+    float: left;
+    border: 0px;
+}
+section h1 {
+    text-align: center;
+    padding: 0.5em;
+    color: olive;
+    font-size: 1.2em;
+}
+section h2 {
+    text-align: center;
+    padding: 0.53em;
+    color: grey;
+    font-size: 1.2em;
+}
+
+/* CONTENEDOR*/
+.cont2 {
+    margin: auto;
+    float: left;
+    padding: 0;
+    width: 99.5%;
+    height: 30em;
+    border: 3px solid #14213d;
+    background-color: #fffafa
+}
+
+
+/* footer pie de pagina*/
+
+footer {
+    clear: both;
+    background-color: #434343;
+}
+footer {
+    text-align: center;
+    font-size: 1.4em;
+    color: navy;
+    padding: 0.7em;
+}
+footer h2 {
+    text-align: center;
+    font-size: 1em;
+    padding: 0.4em;
+}
+footer {
+    text-decoration: none;
+    color: green;
+}
+#ContenidoUsuario {
+    width: 700px;
+    height: 400px;
+    background-color: #fffafa
+}
+@media (max-width: 900px) {
+    #body {
+        width: 100%;
+        margin: 0 auto 20px;
+        font-size: 14px;
+    }
+    h1 {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    h2 {
+        padding: 50px 10px 2px;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .name {
+        font-size: 12px;
+    }
+    .lsf-input {
+        margin: 15px 0 25px;
+        font-size: 22px;
+    }
+    .lsf-input input {
+        width: 80%;
+        margin: 0 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

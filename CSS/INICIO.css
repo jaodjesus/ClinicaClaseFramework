@@ -1,0 +1,37 @@
+*{margin: 0px; padding: 0px;}
+
+
+
+#imagen1{width: 25%; height: 200px; border: 3px solid black;
+			margin-top: 10px; margin-left: 10px; border-radius: 10px; background: url(../imagenes/comfandi.jpeg)no-repeat;
+
+
+}
+
+#imagen2{width: 25%; height: 200px; border: 3px solid black;
+			margin-top: 10px; margin-left: 10px; border-radius: 10px; background: url(../imagenes/2_1.jpg);
+			
+
+			
+}
+
+#texto1{width: 25%; height: 200px; border: 3px solid black;
+			margin-top: -423px; margin-left: 370px; float: left; border-radius: 10px;
+
+			
+}
+
+#texto2{width: 25%; height: 200px; border: 3px solid black;
+			margin-top: -205px; margin-left: 370px; float: left; border-radius: 10px;
+
+			
+}
+
+#folleto{width: 25%; height: 420px; border: 3px solid black;
+			margin-top: -423px; margin-left: 720px; float: left; border-radius: 10px; background: url(../imagenes/page.jpg)no-repeat;
+
+			
+}
+
+
+.formatotext{text-align: justify-all; padding: 10px 10px; font-family: cursive;}

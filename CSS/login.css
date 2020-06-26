@@ -1,0 +1,107 @@
+body {
+    margin: auto;
+    width: 100%;
+    background: url(../imagenes/fondo-muro.jpeg), no-repeat;
+}
+#titulo-login {
+    margin-top: 50px;
+    font-family: 'tahoma';
+    color: #4fabd0;
+}
+/*------------imagen y borde----------------*/
+
+#borde-login {
+    width: 80%;
+    height: 30em;
+    margin-top: 100px;
+    margin: auto;
+}
+#borde-login2 {
+    width: 40%;
+    height: 25em;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    transition: 0, 8;
+    box-shadow: 0 0 30px 0 black;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+#logo-login {
+    min-width: 40%;
+    height: 8em;
+    margin: auto;
+    margin-left: 10px;
+}
+/*--------------------INPUT DE FORMULARIOS Y EFECTOS------------------------------*/
+
+input {
+    min-width: 60%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 90px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0, 8s;
+}
+/* CAMPO - USUARIO*/
+
+input:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.inputWhithIcon input {
+    padding-left: 40px;
+}
+.inputWhithIcon {
+    position: relative;
+    margin-top: -6px;
+    float: left;
+}
+i {
+    position: absolute;
+    left: 85px;
+    top: 0px;
+    padding: 9px 8px;
+    color: #aaa;
+}
+.inputWhithIcon i {
+    color: dodgerBlue;
+}
+/* CAMPO - CONTRASEÑA*/
+
+#input-contra:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.inputcontrasenia input {
+    padding-left: 37px;
+}
+.inputcontrasenia {
+    position: relative;
+    margin-top: 5px;
+    float: left;
+}
+#i-contra {
+    position: absolute;
+    left: 88px;
+    top: 60px;
+    padding: 2px 1px;
+    color: #aaa;
+}
+#icono-contra {
+    width: 36px;
+    height: 30px;
+}
+.inputWhithIcon i {
+    color: dodgerBlue;
+}
+#boton-ingresar {
+    width: 60%;
+    margin: 8px 90px;
+    position: relative;
+    float: left;
+    outline: none;
+    padding: 8px;
+}
